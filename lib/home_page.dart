@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final int amount = 1000;
 
-  late TrafficLightBehavior _currentBehavior = TrafficLightBehavior.synchronized;
+  late TrafficLightBehavior _currentBehavior = TrafficLightBehavior.chaos;
   TrafficLightStatus _currentStatus = TrafficLightStatus.red;
 
   Timer? _syncTimer;
